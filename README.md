@@ -13,6 +13,10 @@ NOME = name and CONTAGEM = count
 
 ## columns formulas
 
+remember that this database model is gererated using another database with the folowing format
+
+![model base](https://raw.githubusercontent.com/Ronnie018/PBI-html-visuals/main/blobs/model_base.PNG?raw=true)
+
 ### name / Count
 
 #### method:
