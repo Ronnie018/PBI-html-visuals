@@ -151,7 +151,7 @@ Select the color the will be used to represent that ratio
 ##### method: 
 power BI calculated formula (DAX) + model relationship
 
-#### pre-requisites
+#### pre-requisites:
 if you have a set of colors and want to test them for yourself just fill this column manually, otherwise, be sure that you have a table with columns and indexes as the folowing:
 
 ![database model](https://raw.githubusercontent.com/Ronnie018/PBI-html-visuals/main/blobs/colors_base.PNG?raw=true)
@@ -159,3 +159,12 @@ if you have a set of colors and want to test them for yourself just fill this co
 once you have it you can create a relationship beetween those indexes and a numeric columns on the database model:
 
 ![database model](https://raw.githubusercontent.com/Ronnie018/PBI-html-visuals/main/blobs/relationship.PNG?raw=true)
+
+#### formula:
+
+<pre>
+<code>
+    COLOR = LOOKUPVALUE(colors[colors], colors[Índice], [INTEGER_RATIO])
+</code>
+</pre>
+
