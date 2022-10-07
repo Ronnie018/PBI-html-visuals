@@ -76,9 +76,28 @@ power BI calculated formula (DAX)
     INTEGER_RATIO = ROUNDUP(numero_de_chamados_por_nome[RATIO], 0)
 </code>
 </pre>
+
 In this case it's being used ROUNDUP, that rounds the number up, but there are three Round formulas available in DAX:
 <ul>
  <li>ROUNDUP</li>
  <li>ROUNDDOWN</li>
  <li>ROUND</li>
 </ul>
+
+### FONT_SIZE 
+Font size created to represent the name's percentage, without being too much great or small
+
+#### method:
+power BI calculated formula (DAX)
+
+#### formula:
+
+<pre>
+<code>
+    FONT_SIZE = if(
+         numero_de_chamados_por_nome[RATIO] * 2 < 20,      # logical test
+         ROUND(numero_de_chamados_por_nome[RATIO] * 2, 0), # value if true
+         20                                                # value if false
+     )
+</code>
+</pre>
