@@ -8,6 +8,7 @@ CSS/HTML visuals for Power BI dashboards
 ## database model image:
 
 ![database model](https://raw.githubusercontent.com/Ronnie018/PBI-html-visuals/main/blobs/database_model.PNG?raw=true)
+
 columns NOME = name and contagem = count
 
 ## columns formulas
