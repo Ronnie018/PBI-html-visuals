@@ -176,3 +176,4 @@ once you have it you can create a relationship beetween those indexes and a nume
 
 ## final result:
 
+![short demo](https://raw.githubusercontent.com/Ronnie018/PBI-html-visuals/main/blobs/performance/demo_dash.gif?raw=true)
