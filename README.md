@@ -172,7 +172,7 @@ once you have it you can create a relationship beetween those indexes and a nume
 
 \[MISSING\]
 
-# Names
+# Performance
 
 ## final result:
 
