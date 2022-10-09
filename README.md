@@ -1,7 +1,9 @@
 # PBI-html-visuals
 CSS/HTML visuals for Power BI dashboards
 
-## final result image:
+# Names
+
+## final result:
 
 ![final result](https://raw.githubusercontent.com/Ronnie018/PBI-html-visuals/main/blobs/names.PNG?raw=true)
 
@@ -167,4 +169,10 @@ once you have it you can create a relationship beetween those indexes and a nume
     COLOR = LOOKUPVALUE(colors[colors], colors[Índice], [INTEGER_RATIO])
 </code>
 </pre>
+
+\[MISSING\]
+
+# Names
+
+## final result:
 
